@@ -64,3 +64,5 @@ The Database executes the query and returns the requested raw data directly back
 The Backend takes the raw data, formats it, and sends it back to the Frontend as an HTTP Response to deliver the requested information to the user's browser for display.
 
 ![Architecture Diagram](image.jpg)
+![Finova Data Viewer UI Screenshot](ui-screenshot.png)
+![Git Commands Screenshot](git-commands.png)
