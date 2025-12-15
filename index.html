@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>FINOVA DATA VIEWER</title>
+    
+   <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Finova Data Viewer</h1>
+
+        <div class="searcharea">
+            
+            <label class="inputlabel">
+                Enter a stock symbol (AAPL, TSLA), or a cryptocurrency name (Bitcoin, Ethereum)
+            </label>
+            
+            <div class="inputgroup">
+                <input type="text" 
+                       id="symbolinput"
+                       class="inputfield">
+                
+                <button class="searchbutton">Search</button>
+            </div>
+        </div>
+
+        <div class="datadisplay">
+            
+            <div class="datacard stockinfo">
+                <h3>Stock Information Display</h3>
+                <p><b>Status:</b> Waiting for response...</p>
+                <p>NIL</p>
+            </div>
+
+            <div class="datacard cryptoinfo">
+                <h3>Crypto Information Display</h3>
+                <p><b>Status:</b> Waiting for response...</p>
+                <p>NIL</p>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>

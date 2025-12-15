@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000; 
+    color: #f0f0f0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #1a1a1a; 
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h1 {
+    font-family: 'Bebas Neue', sans-serif; 
+    text-align: center;
+    color: #9370db;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #373235;
+    font-size: 3em; 
+    letter-spacing: 2px;
+}
+
+.searcharea {
+    margin-bottom: 30px;
+}
+
+.inputlabel {
+    display: block; 
+    margin-bottom: 10px; 
+    font-weight: bold;
+    color: #de93b8; 
+}
+
+.inputgroup {
+    display: flex;
+    gap: 10px; 
+}
+
+.inputfield {
+    flex-grow: 1; 
+    padding: 10px;
+    border: 1px solid #555555;
+    border-radius: 4px;
+    background-color: #444444; 
+    color: #f0f0f0;
+}
+
+.searchbutton {
+    padding: 10px 20px;
+    background-color: #de93b8   ; 
+    color: #000000; 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.datadisplay {
+    display: flex;
+    gap: 20px;
+}
+.datacard {
+    flex: 1; 
+    padding: 15px;
+    border: 1px solid #555555;
+    border-radius: 6px;
+    color: #333333; /* Default text inside card */
+}
+.stockinfo {
+    background-color: #352444; 
+    border-color: #000000;
+}
+
+.cryptoinfo {
+    background-color: #352444; 
+    border-color: #000000;
+}
+
+.datacard h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dashed #777;
+    font-size: 1.2em;
+    color: #333; 
+}
+
+
+
+.stockinfo h3 {
+    color: #9370db ; 
+}
+
+.cryptoinfo h3 {
+    color: #9370db; 
+}
+
+.datacard p {
+    line-height: 1.5;
+    color: #b0b0b0; 
+}
