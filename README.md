@@ -11,11 +11,11 @@ Any device or software that initiates communication by requesting data or servic
  A powerful system that listens for and responds to client requests by delivering data or performing tasks.
 
 3. CLIENT SERVER COMMUNICATION  
-1. User enters the URL   
-2.  The browser contacts a DNS (Domain Name System) server to convert the domain into an IP address  
-3. The browser sends an HTTP/HTTPS request to the server using the resolved IP address and establishes a connection.   
-4. The server sends back website files.  
-5. Browser renders the webpage:
+ 1. User enters the URL   
+ 2.  The browser contacts a DNS (Domain Name System) server to convert the domain into an IP address  
+ 3. The browser sends an HTTP/HTTPS request to the server using the resolved IP address and establishes a connection.   
+ 4. The server sends back website files.  
+ 5. Browser renders the webpage:
 
 I. Interpreter: processes HTML  
 II. CSS interpreter: applies styles  
