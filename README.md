@@ -29,23 +29,23 @@ III. JavaScript Engine: adds interactivity (using JIT compilation for performanc
 
    ***2\. Full-Stack Applications***
 
-1. Front end development
+I. Front end development
 
 The visible part of a website responsible for user experience. The user directly interacts with the front end portion of the web application or website.
 
-2. Back end development
+II. Back end development
 
 Server-side development focused on how a website functions. It manages the database through queries.
 
-3. Database
+III. Database
 
 An organized collection of data which helps in efficient retrieval, insertion and deletion of data from database and organizes the data in the form of tables, views, schemas, reports etc.
 
-4. API
+IV. API
 
 An API defines the rules and methods by which one piece of software can request services, data, or functionality from another piece of software.
 
-5. How these layers talk to each other
+V. How these layers talk to each other
 
 ### **1\. Frontend to Backend** 
 
